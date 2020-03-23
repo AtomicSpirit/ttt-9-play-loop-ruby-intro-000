@@ -38,9 +38,8 @@ end
 def play(board)# Define your play method below
 turn = 0
 turn += 1
-if play(turn) <= 9
-  play(turn)
-else
-  break
+until turn <= 9
+  play(board)
+break
 end
 end
