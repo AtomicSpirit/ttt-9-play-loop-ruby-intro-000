@@ -40,5 +40,6 @@ turn = 0
 counter += 1
 play(turn)
 if counter >= 9
+  break
 end
 end
